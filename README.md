@@ -1,5 +1,7 @@
 # Tracer
 
+Using VS2010
+
 Compile:
 
 MSBuild.exe .\Benchmarks\Benchmarks.sln /t:rebuild
