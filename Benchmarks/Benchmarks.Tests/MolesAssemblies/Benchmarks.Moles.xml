@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Benchmarks.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Benchmarks.Moles.MPrimitives">
+            <summary>Mole type of <see cref="T:Benchmarks.Primitives"/>
+            .</summary>
+        </member>
+        <member name="M:Benchmarks.Moles.MPrimitives.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Benchmarks.Moles.MPrimitives.#ctor(Benchmarks.Primitives)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Benchmarks.Moles.MPrimitives.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Benchmarks.Moles.MPrimitives.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Benchmarks.Moles.MPrimitives.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Benchmarks.Moles.MPrimitives.Constructor">
+            <summary>Sets the mole of <see cref="M:Benchmarks.Primitives.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Benchmarks.Moles.MPrimitives.SumInt32Int32">
+            <summary>Sets the mole of <see cref="M:Benchmarks.Primitives.Sum(System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:Benchmarks.Moles.MPrimitives.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Benchmarks.Moles.SPrimitives">
+            <summary>Stub type of <see cref="T:Benchmarks.Primitives"/>
+            .</summary>
+        </member>
+        <member name="M:Benchmarks.Moles.SPrimitives.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Benchmarks.Moles.SPrimitives.InitializeStub">
+            <summary>Initializes a new instance of type SPrimitives</summary>
+        </member>
+        <member name="P:Benchmarks.Moles.SPrimitives.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Benchmarks.Moles.SPrimitives.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
