@@ -18,9 +18,16 @@ namespace Benchmarks
         [PexMethod]
         public int PUT_Sum(int x, int y)
         {
-            int result = Primitives.Sum(x, y);
+            int result = new Primitives().Sum(x, y);
             return result;
             // TODO: add assertions to method PrimitivesTest.PUT_Sum(Int32, Int32)
+        }
+
+        [TestMethod]
+        public void CUT_Sum()
+        {
+            int result = new Primitives().Sum(2, 3);
+            Assert.AreEqual(5, result);
         }
     }
 }
