@@ -17,6 +17,12 @@ namespace Benchmarks
             s = new Stack<int>(size);
         }
 
+        public StackA()
+        {
+            size = 0;
+            s = new Stack<int>(10);
+        }
+
         public void push(int a)
         {
             s.Push(a);
@@ -25,7 +31,12 @@ namespace Benchmarks
 
         public int peekA()
         {
-            return s.Peek();
+            if (s.Count > 0)
+                return s.Peek();
+            else
+            {
+                return -1;
+            } 
         }
 
         public override string ToString()
